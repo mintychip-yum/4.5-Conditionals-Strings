@@ -31,7 +31,7 @@ document.getElementById("demo").innerHTML = text;
 
 
 //String Method
-function string(method) {
+function string() {
     let text = document.getElementById("person").innerHTML;
     document.getElementById("person").innerHTML = 
     text.replace("Do ya wanna know who's the coolest person in town?",
