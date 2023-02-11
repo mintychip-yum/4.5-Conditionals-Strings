@@ -1,14 +1,20 @@
 // Create a concatenated string variable.
 //The variable should be a single string variable that includes other embedded 
 //variables concatenated together. Output to the page or console.
-
-
-
+const name= "Priscilla"
+const nickname= "Quinn"
+console.log(`Hello its me and my name is ${name} but if
+you want, you can just call me by my nickname ${nickname}`)
 
 
 
 //"If" Conditional statement
-
+const score= 100;
+if (score <= 100) {
+  console.log ("Your'e a winner!")
+} else{
+  console.log(" Your'e a loser!")
+}
 
 
 //Switch Statement
@@ -29,7 +35,6 @@ document.getElementById("demo").innerHTML = text;
 
 
 
-
 //String Method
 function string() {
     let text = document.getElementById("person").innerHTML;
@@ -41,6 +46,8 @@ console.log(document.getElementById("person"));
 
 
 //Number method
+let x = " BE HAPPY !";
+document.getElementById("demo").innerHTML =
+  x.toString();
 
-
-
+ 
